@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+/* Instructions:
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+1. Wire up the budgeting tool so it tells the user whether or
+not they can afford an item based on their available funds. 💸
+2. Style it as you wish 💅
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+*/
+
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+import './index.css'
+
+
+ReactDOM.render(<App />, document.getElementById('root'))
