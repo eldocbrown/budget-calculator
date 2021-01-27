@@ -1,7 +1,8 @@
 {
   "name": "budget-calculator",
-  "version": "0.1.0",
+  "version": "0.2",
   "private": true,
+  "homepage": "/budget-calculator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
