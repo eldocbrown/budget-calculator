@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/budget-calculator/static/css/main.f0feeeac.chunk.css",
+    "main.js": "/budget-calculator/static/js/main.e4674cdd.chunk.js",
+    "main.js.map": "/budget-calculator/static/js/main.e4674cdd.chunk.js.map",
+    "runtime-main.js": "/budget-calculator/static/js/runtime-main.fb3aec21.js",
+    "runtime-main.js.map": "/budget-calculator/static/js/runtime-main.fb3aec21.js.map",
+    "static/js/2.24d24a38.chunk.js": "/budget-calculator/static/js/2.24d24a38.chunk.js",
+    "static/js/2.24d24a38.chunk.js.map": "/budget-calculator/static/js/2.24d24a38.chunk.js.map",
+    "index.html": "/budget-calculator/index.html",
+    "static/css/main.f0feeeac.chunk.css.map": "/budget-calculator/static/css/main.f0feeeac.chunk.css.map",
+    "static/js/2.24d24a38.chunk.js.LICENSE.txt": "/budget-calculator/static/js/2.24d24a38.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/budget-calculator/static/media/background2.20fa7040.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb3aec21.js",
+    "static/js/2.24d24a38.chunk.js",
+    "static/css/main.f0feeeac.chunk.css",
+    "static/js/main.e4674cdd.chunk.js"
+  ]
+}
