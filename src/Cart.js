@@ -21,7 +21,7 @@ function Cart(props) {
     }, [total, onChange])
 
     function addItem(event) {
-        //todo: validate form
+
         event.preventDefault()
 
         setItems(prevItems => {
@@ -42,6 +42,7 @@ function Cart(props) {
     }
 
     function removeItem(event) {
+
         event.preventDefault()
 
         setItems(prevItems => {
@@ -86,27 +87,27 @@ function Cart(props) {
     return (
         <div>
             <div className="d-flex flex-row align-items-top">
-                <p id="wishListTotal">My WishList: <strong>$ {total.toFixed(2)}</strong></p>
+                <p id="wishListTotal">My WishList: <strong id="wishListTotalNumber">$ {total.toFixed(2)}</strong></p>
                 <Status savings={props.savings} wishListAmount={total} />
             </div>
-            <form onSubmit={addItem}>
+            <form id="itemAddForm" onSubmit={addItem}>
                 <div className="form-row">
                     <div className="col">
                         <input id="input-item-name" name="name" type="text" className="form-control" placeholder="Item name" value={name} onChange={event => setName(event.target.value)} autoFocus required/>
                     </div>
                     <div className="col-2">
-                        <input name="qty" type="number" className="form-control" placeholder="Qty" value={qty} onChange={event => setQty(event.target.value)} min="1" step="1"/>
+                        <input id="input-item-qty" name="qty" type="number" className="form-control" placeholder="Qty" value={qty} onChange={event => setQty(event.target.value)} min="1" step="1"/>
                     </div>
                     <div className="col-3">
                         <div className="input-group">
                             <div className="input-group-prepend">
                                 <div className="input-group-text">$</div>
                             </div>
-                            <input name="price" type="number" className="form-control" placeholder="Price" value={price} onChange={event => setPrice(event.target.value)} min="0.01" step="0.01"/>
+                            <input id="input-item-price" name="price" type="number" className="form-control" placeholder="Price" value={price} onChange={event => setPrice(event.target.value)} min="0.01" step="0.01"/>
                         </div>
                     </div>
                     <div className="col">
-                        <button className="btn btn-primary">Add</button>
+                        <button id="addButton" className="btn btn-primary">Add</button>
                     </div>
                 </div>
             </form>
